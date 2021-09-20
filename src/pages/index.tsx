@@ -29,17 +29,17 @@ const Home: NextPage = () => {
                 >
                   <Menu.Item>
                     <li>
-                      <a>Item 1</a>
+                      <a href="/hello">Item 1</a>
                     </li>
                   </Menu.Item>
                   <Menu.Item>
                     <li>
-                      <a>Item 2</a>
+                      <a href="/hj">Item 2</a>
                     </li>
                   </Menu.Item>
                   <Menu.Item>
                     <li>
-                      <a>Item 3</a>
+                      <a href="/b">Item 3</a>
                     </li>
                   </Menu.Item>
                 </Menu.Items>
