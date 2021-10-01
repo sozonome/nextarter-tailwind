@@ -1,8 +1,8 @@
-# nextdaisy-starter
+# nextarter-daisy
 
-[![nextdaisy-starter](https://socialify.git.ci/sozonome/nextdaisy-starter/image?description=1&language=1&logo=https%3A%2F%2Fmaterial-ui.com%2Fstatic%2Flogo_raw.svg&owner=1&stargazers=1&theme=Dark)](https://github.com/sozonome/nextdaisy-starter)
+[![nextarter-daisy](https://socialify.git.ci/sozonome/nextarter-daisy/image?description=1&language=1&owner=1&stargazers=1&theme=Dark)](https://github.com/sozonome/nextarter-daisy)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextdaisy-starter) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextdaisy-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-daisy) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-daisy)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), added with [**TailwindCSS**](https://tailwindcss.com) - [**daisyUI**](https://daisyui.com) and [**TypeScript**](https://www.typescriptlang.org) setup.
 Start developing right away!
@@ -26,7 +26,7 @@ Start developing right away!
 You can either click `Use this template` button on this repository and clone the repo or directly from your terminal:
 
 ```bash
-npx degit sozonome/nextdaisy-starter <APP_NAME>
+npx degit sozonome/nextarter-daisy <APP_NAME>
 ```
 
 Then, run the development server:

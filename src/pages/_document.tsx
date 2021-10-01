@@ -11,7 +11,7 @@ import Document, {
   DocumentContext,
 } from "next/document";
 
-const APP_NAME = "nextdaisy-starter";
+const APP_NAME = "nextarter-daisy";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {

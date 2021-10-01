@@ -1,21 +1,21 @@
 /** @type {import('next-seo').DefaultSeoProps} */
 const defaultSEOConfig = {
-  title: "nextdaisy-starter",
-  titleTemplate: "%s | nextdaisy-starter",
-  defaultTitle: "nextdaisy-starter",
+  title: "nextarter-daisy",
+  titleTemplate: "%s | nextarter-daisy",
+  defaultTitle: "nextarter-daisy",
   description: "Next.js + TailwindCSS (daisyUI & headless UI) + TypeScript template",
-  canonical: "https://nextdaisy-starter.sznm.dev",
+  canonical: "https://nextarter-daisy.sznm.dev",
   openGraph: {
-    url: "https://nextdaisy-starter.sznm.dev",
-    title: "nextdaisy-starter",
+    url: "https://nextarter-daisy.sznm.dev",
+    title: "nextarter-daisy",
     description: "Next.js + TailwindCSS (daisyUI & headless UI) + TypeScript template",
     images: [
       {
-        url: "https://og-image.sznm.dev/**nextdaisy-starter**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250",
-        alt: "nextdaisy-starter.sznm.dev og-image",
+        url: "https://og-image.sznm.dev/**nextarter-daisy**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250",
+        alt: "nextarter-daisy.sznm.dev og-image",
       },
     ],
-    site_name: "nextdaisy-starter",
+    site_name: "nextarter-daisy",
   },
   twitter: {
     handle: "@sozonome",
