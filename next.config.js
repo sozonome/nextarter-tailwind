@@ -4,4 +4,7 @@ module.exports = {
   images: {
     domains: ["vercel.com", "www.netlify.com"],
   },
+  experimental: {
+    optimizeCss: true,
+  }
 };

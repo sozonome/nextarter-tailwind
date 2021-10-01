@@ -32,6 +32,7 @@
     "@types/tailwindcss": "^2.2.1",
     "autoprefixer": "^10.3.4",
     "commitlint": "^13.1.0",
+    "critters": "^0.0.10",
     "daisyui": "^1.14.0",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
