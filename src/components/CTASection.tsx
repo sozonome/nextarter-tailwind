@@ -27,7 +27,7 @@ const CTASection = () => {
       </div>
 
       <div>
-        <code className="bg-gray-600 p-1 rounded-lg">{`npx degit sozonome/nextchakra-starter <YOUR_APP_NAME>`}</code>
+        <code className="bg-gray-600 p-1 rounded-lg">{`npx degit sozonome/nextdaisy-starter <YOUR_APP_NAME>`}</code>
       </div>
 
       <div className="grid gap-2">
