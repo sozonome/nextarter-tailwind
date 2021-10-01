@@ -5,7 +5,7 @@ const SomeText = () => {
     <div className="grid gap-4">
       <h2>Hello</h2>
 
-      <div className="alert alert-info">
+      <div className="alert">
         <div className="flex-1 gap-2">
           <span>
             <FiInfo className="text-lg" />
