@@ -2,7 +2,7 @@ const themes = ["dark", "synthwave", "dracula"];
 
 const ThemeSelect = () => {
   return (
-    <select data-choose-theme className="select">
+    <select data-choose-theme className="select select-bordered">
       <option value="">default</option>
 
       {themes.map((theme) => (

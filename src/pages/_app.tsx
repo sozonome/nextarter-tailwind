@@ -2,7 +2,7 @@ import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
 import { useEffect } from "react";
 import { themeChange } from "theme-change";
-import "@fontsource/plus-jakarta-sans";
+import "@fontsource/plus-jakarta-sans/latin.css";
 
 import defaultSEOConfig from "../../next-seo.config";
 import Layout from "components/layout";
