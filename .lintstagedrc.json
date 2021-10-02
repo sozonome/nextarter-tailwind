@@ -3,7 +3,5 @@
     "eslint --fix --max-warnings=0",
     "prettier --write"
   ],
-  "src/**/*.{json,css,scss,md}": [
-    "prettier --write"
-  ]
+  "src/**/*.{json,css,scss,md}": ["prettier --write"]
 }
