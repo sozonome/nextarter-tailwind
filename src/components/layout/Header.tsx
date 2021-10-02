@@ -8,7 +8,7 @@ const Header = () => {
       <section className="flex items-center justify-between wrapper mx-auto">
         <Link href="/" passHref>
           <button type="button" className="cursor-pointer font-bold text-lg">
-            nextstarter-daisy
+            nextarter-daisy
           </button>
         </Link>
         <ThemeSelect />
