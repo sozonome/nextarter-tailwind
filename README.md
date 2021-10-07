@@ -47,7 +47,6 @@ You can start editing the page by modifying `src/pages/index.tsx`. The page auto
 
 ## References
 
-- This template is inspired by Next.js with TypeScript example from Material UI v5 official examples and Material UI v5 docs site.
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [TailwindCSS](https://tailwindcss.com)
