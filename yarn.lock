@@ -914,7 +914,7 @@
     "@babel/helper-validator-identifier" "^7.14.9"
     to-fast-properties "^2.0.0"
 
-"@commitlint/cli@^13.2.0":
+"@commitlint/cli@^13.2.1":
   version "13.2.1"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-13.2.1.tgz#80ebd46beef6ceed3bb0c0842bcda8d02a3c91de"
   integrity sha512-JGzYk2ay5JkRS5w+FLQzr0u/Kih52ds4HPpa3vnwVOQN8Q+S1VYr8Nk/6kRm6uNYsAcC1nejtuDxRdLcLh/9TA==
@@ -2175,12 +2175,12 @@ commander@^8.2.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-8.2.0.tgz#37fe2bde301d87d47a53adeff8b5915db1381ca8"
   integrity sha512-LLKxDvHeL91/8MIyTAD5BFMNtoIwztGPMiM/7Bl8rIPmHCZXRxmSWr91h57dpOpnQ6jIUqEWdXE/uBYMfiVZDA==
 
-commitlint@^13.2.0:
-  version "13.2.0"
-  resolved "https://registry.yarnpkg.com/commitlint/-/commitlint-13.2.0.tgz#a76565cfb9c6b4b4671871b55e3cd7ce523d2af0"
-  integrity sha512-gvjIeRkIdslbW+yAfpsHlCLYauoVlr2a9UfZKqQ4mwOT/EJ5k+uoEJ4Czu7hVAg0VnUsGAerJnkaej86ABuRrw==
+commitlint@^13.2.1:
+  version "13.2.1"
+  resolved "https://registry.yarnpkg.com/commitlint/-/commitlint-13.2.1.tgz#99333fab4d7b3ece95fed915dd15daf9a11563e6"
+  integrity sha512-ZqmqXrObQ5MBzP+1d7OrmSweqiGm8EzjchcuaHktfj5wsuuqIIAYt3xkqwUeo37Do8DaUpCh+m9sEYIxuvbQ0g==
   dependencies:
-    "@commitlint/cli" "^13.2.0"
+    "@commitlint/cli" "^13.2.1"
     "@commitlint/types" "^13.2.0"
 
 common-tags@^1.8.0:

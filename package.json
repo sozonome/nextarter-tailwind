@@ -34,7 +34,7 @@
     "@types/react": "17.0.22",
     "@types/tailwindcss": "^2.2.1",
     "autoprefixer": "^10.3.7",
-    "commitlint": "^13.2.0",
+    "commitlint": "^13.2.1",
     "critters": "^0.0.10",
     "daisyui": "^1.14.2",
     "eslint": "7.32.0",
