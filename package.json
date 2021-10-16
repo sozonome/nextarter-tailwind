@@ -39,7 +39,7 @@
     "daisyui": "^1.14.5",
     "eslint": "^7.32.0",
     "eslint-config-next": "11.1.2",
-    "eslint-config-sznm": "^0.1.9",
+    "eslint-config-sznm": "^0.1.10",
     "husky": "^7.0.0",
     "lint-staged": "^11.2.3",
     "next-sitemap": "^1.6.184",
