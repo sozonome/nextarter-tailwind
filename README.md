@@ -4,6 +4,8 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-daisy) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-daisy)
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/sozonome/nextarter-daisy)
+
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-daisy&metric=alert_status)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-daisy) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-daisy&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-daisy) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-daisy&metric=bugs)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-daisy) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-daisy&metric=code_smells)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-daisy) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-daisy&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-daisy)
 
 [![Depfu](https://badges.depfu.com/badges/9a11af542088ae56d7e4be5e95ffdc47/overview.svg)](https://depfu.com/github/sozonome/nextarter-daisy?project_id=32237) [![Depfu](https://badges.depfu.com/badges/9a11af542088ae56d7e4be5e95ffdc47/count.svg)](https://depfu.com/github/sozonome/nextarter-daisy?project_id=32237)
