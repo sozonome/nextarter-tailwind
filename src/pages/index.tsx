@@ -1,16 +1,16 @@
 import type { NextPage } from "next";
 
-import CTASection from "components/CTASection";
-import SomeImage from "components/SomeImage";
-import SomeText from "components/SomeText";
+import CTASection from "components/samples/CTASection";
+import SomeImage from "components/samples/SomeImage";
+import SomeText from "components/samples/SomeText";
 
 const Home: NextPage = () => {
   return (
-    <div className="w-full">
+    <>
       <SomeText />
       <SomeImage />
       <CTASection />
-    </div>
+    </>
   );
 };
 

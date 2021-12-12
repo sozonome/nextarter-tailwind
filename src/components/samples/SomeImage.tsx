@@ -7,8 +7,8 @@ const SomeImage = () => {
     <>
       <div className="grid gap-2 text-center p-12">
         <Image
-          width={400}
-          height={400}
+          width={320}
+          height={320}
           src="/assets/Website setup-amico.svg"
           alt="launch image"
         />

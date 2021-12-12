@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
-import AnchorLink from "./ui/AnchorLink";
+import AnchorLink from "../ui/AnchorLink";
 
 const CTASection = () => {
   return (
@@ -40,13 +40,26 @@ const CTASection = () => {
           </AnchorLink>
         </div>
 
-        <div>
+        <div className="flex items-center gap-2 mx-auto">
           <AnchorLink
             href="https://github.com/sozonome/nextarter-daisy"
             className="btn btn-accent btn-sm gap-2"
           >
             Open in Github
             <FaGithub />
+          </AnchorLink>
+
+          <AnchorLink
+            href="https://daisyui.com"
+            className="btn btn-sm btn-info"
+          >
+            DaisyUI
+          </AnchorLink>
+          <AnchorLink
+            href="https://tailwindcss.com"
+            className="btn btn-sm btn-info"
+          >
+            TailwindCSS
           </AnchorLink>
         </div>
       </div>
