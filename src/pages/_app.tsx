@@ -5,9 +5,9 @@ import { themeChange } from "theme-change";
 import "@fontsource/plus-jakarta-sans/latin.css";
 
 import defaultSEOConfig from "../../next-seo.config";
-import Layout from "components/layout";
+import Layout from "lib/components/layout";
 
-import "styles/globals.css";
+import "lib/styles/globals.css";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   useEffect(() => {

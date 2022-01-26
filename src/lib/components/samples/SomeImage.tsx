@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import AnchorLink from "components/ui/AnchorLink";
+import AnchorLink from "lib/components/ui/AnchorLink";
 
 const SomeImage = () => {
   return (
