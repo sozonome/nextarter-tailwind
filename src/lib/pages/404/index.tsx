@@ -6,7 +6,7 @@ import AnchorLink from "lib/components/ui/AnchorLink";
 const Page404 = () => {
   return (
     <>
-      <div className="grid gap-2 text-center p-12">
+      <div className="grid gap-2 p-12 text-center">
         <Image src="/assets/404 Error-amico.svg" width={400} height={400} />
         <AnchorLink href="https://storyset.com/web">
           Web illustrations by Storyset

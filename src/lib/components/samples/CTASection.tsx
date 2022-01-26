@@ -5,8 +5,8 @@ import AnchorLink from "../ui/AnchorLink";
 
 const CTASection = () => {
   return (
-    <div className="text-center grid gap-4">
-      <div className="flex my-4 justify-center gap-4">
+    <div className="grid gap-4 text-center">
+      <div className="my-4 flex justify-center gap-4">
         <AnchorLink href="https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-daisy">
           <Image
             src="https://vercel.com/button"
@@ -27,7 +27,7 @@ const CTASection = () => {
       </div>
 
       <div>
-        <code className="bg-base-300 p-1 rounded-lg">{`npx degit sozonome/nextarter-daisy <YOUR_APP_NAME>`}</code>
+        <code className="rounded-lg bg-base-300 p-1">{`npx degit sozonome/nextarter-daisy <YOUR_APP_NAME>`}</code>
       </div>
 
       <div className="grid gap-2">
@@ -40,7 +40,7 @@ const CTASection = () => {
           </AnchorLink>
         </div>
 
-        <div className="flex items-center gap-2 mx-auto">
+        <div className="mx-auto flex items-center gap-2">
           <AnchorLink
             href="https://github.com/sozonome/nextarter-daisy"
             className="btn btn-accent btn-sm gap-2"
@@ -51,13 +51,13 @@ const CTASection = () => {
 
           <AnchorLink
             href="https://daisyui.com"
-            className="btn btn-sm btn-info"
+            className="btn btn-info btn-sm"
           >
             DaisyUI
           </AnchorLink>
           <AnchorLink
             href="https://tailwindcss.com"
-            className="btn btn-sm btn-info"
+            className="btn btn-info btn-sm"
           >
             TailwindCSS
           </AnchorLink>
