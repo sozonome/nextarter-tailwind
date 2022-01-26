@@ -5,7 +5,7 @@ import AnchorLink from "lib/components/ui/AnchorLink";
 const SomeImage = () => {
   return (
     <>
-      <div className="grid gap-2 text-center p-12">
+      <div className="grid gap-2 p-12 text-center">
         <Image
           width={320}
           height={320}

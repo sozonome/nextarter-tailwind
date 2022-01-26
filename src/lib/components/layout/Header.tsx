@@ -4,10 +4,10 @@ import ThemeSelect from "./ThemeSelect";
 
 const Header = () => {
   return (
-    <header className="z-10 bg-base-100 w-full sticky top-0">
-      <section className="flex items-center justify-between wrapper mx-auto">
+    <header className="sticky top-0 z-10 w-full bg-base-100">
+      <section className="wrapper mx-auto flex items-center justify-between">
         <Link href="/" passHref>
-          <button type="button" className="cursor-pointer font-bold text-lg">
+          <button type="button" className="cursor-pointer text-lg font-bold">
             nextarter-daisy
           </button>
         </Link>
