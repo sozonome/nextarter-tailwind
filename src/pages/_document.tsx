@@ -1,10 +1,5 @@
-import Document, {
-  Html,
-  Head,
-  Main,
-  NextScript,
-  DocumentContext,
-} from "next/document";
+import type { DocumentContext } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 const APP_NAME = "nextarter-daisy";
 
