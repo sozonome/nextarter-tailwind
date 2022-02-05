@@ -1,8 +1,9 @@
 const themes = [
+  "light",
+  "black",
   "dracula",
   "synthwave",
   "dark",
-  "light",
   "cupcake",
   "bumblebee",
   "emerald",
@@ -18,7 +19,6 @@ const themes = [
   "pastel",
   "fantasy",
   "wireframe",
-  "black",
   "luxury",
 ];
 

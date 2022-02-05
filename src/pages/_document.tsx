@@ -1,17 +1,16 @@
 import type { DocumentContext } from "next/document";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
-const APP_NAME = "nextarter-daisy";
+const APP_NAME = "nextarter-tailwind";
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
+  static getInitialProps(ctx: DocumentContext) {
+    return Document.getInitialProps(ctx);
   }
 
   render() {
     return (
-      <Html lang="en" data-theme="dracula">
+      <Html lang="en" data-theme="light">
         <Head>
           <meta name="application-name" content={APP_NAME} />
           <meta name="apple-mobile-web-app-capable" content="yes" />

@@ -1,16 +1,14 @@
 import type { NextPage } from "next";
 
 import CTASection from "lib/components/samples/CTASection";
-import SomeImage from "lib/components/samples/SomeImage";
 import SomeText from "lib/components/samples/SomeText";
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div className="flex min-h-[60vh] flex-col items-center justify-center gap-8 text-center">
       <SomeText />
-      <SomeImage />
       <CTASection />
-    </>
+    </div>
   );
 };
 

@@ -1,67 +1,40 @@
 import Image from "next/image";
-import { FaGithub } from "react-icons/fa";
-
-import AnchorLink from "../ui/AnchorLink";
 
 const CTASection = () => {
   return (
-    <div className="grid gap-4 text-center">
-      <div className="my-4 flex justify-center gap-4">
-        <AnchorLink href="https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-daisy">
+    <div className="grid gap-2.5">
+      <div className="flex items-center gap-2">
+        <a
+          className="btn rounded-3xl border-2 border-green-400 bg-gradient-to-br from-gray-100 to-green-200 font-semibold text-green-700 hover:from-gray-200 hover:to-green-200 hover:text-green-800"
+          href="https://github.com/sozonome/nextarter-tailwind/generate"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Use This Template
+        </a>
+
+        <a
+          href="https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-tailwind"
+          className="flex items-center"
+        >
           <Image
-            src="https://vercel.com/button"
             width={92}
             height={32}
+            src="https://vercel.com/button"
             alt="Vercel deploy button"
           />
-        </AnchorLink>
-
-        <AnchorLink href="https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-daisy">
-          <Image
-            src="https://www.netlify.com/img/deploy/button.svg"
-            width={146}
-            height={32}
-            alt="Netlify deploy button"
-          />
-        </AnchorLink>
+        </a>
       </div>
 
       <div>
-        <code className="rounded-lg bg-base-300 p-1">{`npx degit sozonome/nextarter-daisy <YOUR_APP_NAME>`}</code>
-      </div>
-
-      <div className="grid gap-2">
-        <div>
-          <AnchorLink
-            href="https://github.com/sozonome/nextarter-daisy/generate"
-            className="btn btn-primary"
-          >
-            Use This Template
-          </AnchorLink>
-        </div>
-
-        <div className="mx-auto flex items-center gap-2">
-          <AnchorLink
-            href="https://github.com/sozonome/nextarter-daisy"
-            className="btn btn-accent btn-sm gap-2"
-          >
-            Open in Github
-            <FaGithub />
-          </AnchorLink>
-
-          <AnchorLink
-            href="https://daisyui.com"
-            className="btn btn-info btn-sm"
-          >
-            DaisyUI
-          </AnchorLink>
-          <AnchorLink
-            href="https://tailwindcss.com"
-            className="btn btn-info btn-sm"
-          >
-            TailwindCSS
-          </AnchorLink>
-        </div>
+        <a
+          className="btn rounded-3xl text-xs font-semibold"
+          href="https://github.com/sozonome/nextarter-tailwind"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Repository
+        </a>
       </div>
     </div>
   );
