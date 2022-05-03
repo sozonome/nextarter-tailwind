@@ -14,9 +14,6 @@ module.exports = withPWA({
     register: true,
   },
   reactStrictMode: true,
-  images: {
-    domains: ["vercel.com", "www.netlify.com"],
-  },
   experimental: {
     optimizeCss: true,
   },
