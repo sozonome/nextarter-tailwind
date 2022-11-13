@@ -1,4 +1,4 @@
-# nextarter-tailwind
+<img src="https://og.sznm.dev/api/generate?heading=nextarter-tailwind&text=Next.js+template+with+TailwindCSS,%20daisyUI,%20+and+TypeScript+setup.&template=color&center=true&height=320" />
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/sozonome/nextarter-tailwind) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sozonome/nextarter-tailwind)
 
@@ -31,6 +31,13 @@ You can either click `Use this template` button on this repository and clone the
 
 ```bash
 npx degit sozonome/nextarter-tailwind <APP_NAME>
+```
+
+Install packages:
+```bash
+yarn 
+# or
+yarn install
 ```
 
 Then, run the development server:
