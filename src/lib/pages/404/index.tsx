@@ -7,7 +7,12 @@ const Page404 = () => {
   return (
     <>
       <div className="grid gap-2 p-12 text-center">
-        <Image src="/assets/404 Error-amico.svg" width={400} height={400} />
+        <Image
+          src="/assets/404 Error-amico.svg"
+          width={400}
+          height={400}
+          alt="404 Illustration"
+        />
         <AnchorLink href="https://storyset.com/web">
           Web illustrations by Storyset
         </AnchorLink>
@@ -18,10 +23,8 @@ const Page404 = () => {
         <p>It&apos;s Okay!</p>
 
         <div>
-          <Link href="/" passHref>
-            <button type="button" className="btn btn-primary">
-              Let&apos;s Go Back
-            </button>
+          <Link href="/" className="btn-primary btn">
+            Let&apos;s Go Back
           </Link>
         </div>
       </div>

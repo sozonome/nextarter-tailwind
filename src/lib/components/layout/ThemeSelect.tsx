@@ -1,13 +1,11 @@
 const themes = [
   "light",
-  "black",
-  "dracula",
-  "synthwave",
   "dark",
   "cupcake",
   "bumblebee",
   "emerald",
   "corporate",
+  "synthwave",
   "retro",
   "cyberpunk",
   "valentine",
@@ -19,12 +17,22 @@ const themes = [
   "pastel",
   "fantasy",
   "wireframe",
+  "black",
   "luxury",
+  "dracula",
+  "cmyk",
+  "autumn",
+  "business",
+  "acid",
+  "lemonade",
+  "night",
+  "coffee",
+  "winter",
 ];
 
 const ThemeSelect = () => {
   return (
-    <select data-choose-theme className="select select-bordered">
+    <select data-choose-theme className="select-bordered select">
       {themes.map((theme) => (
         <option value={theme} key={theme}>
           {theme}
