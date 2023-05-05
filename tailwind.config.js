@@ -1,12 +1,12 @@
-const { fontFamily } = require("tailwindcss/defaultTheme");
+const { fontFamily } = require('tailwindcss/defaultTheme');
 
 /** @type {import("@types/tailwindcss/tailwind-config").TailwindConfig} */
 module.exports = {
-  content: ["src/**/*.{js,jsx,ts,tsx}"],
-  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  content: ['src/**/*.{js,jsx,ts,tsx}'],
+  plugins: [require('@tailwindcss/typography')],
   theme: {
     fontFamily: {
-      sans: ['"Plus Jakarta Sans"', ...fontFamily.sans],
+      sans: ['var(--font-sans)', ...fontFamily.sans],
     },
   },
 };

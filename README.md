@@ -35,9 +35,7 @@ npx degit sozonome/nextarter-tailwind <APP_NAME>
 
 Install packages:
 ```bash
-yarn 
-# or
-yarn install
+pnpm i
 ```
 
 Then, run the development server:
