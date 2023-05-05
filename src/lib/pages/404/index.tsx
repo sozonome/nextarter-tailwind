@@ -1,7 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
-
-import AnchorLink from "lib/components/ui/AnchorLink";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Page404 = () => {
   return (
@@ -13,9 +11,7 @@ const Page404 = () => {
           height={400}
           alt="404 Illustration"
         />
-        <AnchorLink href="https://storyset.com/web">
-          Web illustrations by Storyset
-        </AnchorLink>
+        <a href="https://storyset.com/web">Web illustrations by Storyset</a>
       </div>
 
       <div className="grid gap-2 text-center">

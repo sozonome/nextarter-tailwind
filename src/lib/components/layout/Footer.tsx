@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="wrapper">
       <div className="flex">
         <p>
-          {new Date().getFullYear()} -{" "}
+          {new Date().getFullYear()} -{' '}
           <a href="https://sznm.dev" target="_blank" rel="noopener noreferrer">
             sznm.dev
           </a>
