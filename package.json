@@ -6,11 +6,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:turbo": "npx turbo build",
     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint",
+    "lint:turbo": "npx turbo lint",
     "lint:fix": "eslint src --fix && pnpm format",
     "type-check": "tsc --noEmit",
+    "type-check:turbo": "npx turbo type-check",
     "format": "prettier --write src",
     "up-interactive": "pnpm up -i",
     "up-latest": "pnpm up-interactive -L",
@@ -53,6 +56,7 @@
     "prettier-plugin-tailwindcss": "^0.2.8",
     "standard-version": "^9.5.0",
     "tailwindcss": "^3.3.2",
+    "turbo": "^1.9.3",
     "typescript": "4.8.4"
   },
   "engines": {

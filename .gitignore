@@ -47,3 +47,6 @@ sitemap*.xml
 
 # TS
 *.tsbuildinfo
+
+# Turbo
+.turbo
