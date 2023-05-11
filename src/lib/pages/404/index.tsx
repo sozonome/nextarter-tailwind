@@ -1,27 +1,35 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { Button } from '@/lib/components/ui/button';
+
 const Page404 = () => {
   return (
     <>
       <div className="grid gap-2 p-12 text-center">
         <Image
           src="/assets/404 Error-amico.svg"
-          width={400}
-          height={400}
+          width={320}
+          height={320}
           alt="404 Illustration"
         />
-        <a href="https://storyset.com/web">Web illustrations by Storyset</a>
+        <Button variant="link" asChild>
+          <a href="https://storyset.com/web" className="text-xs">
+            Web illustrations by Storyset
+          </a>
+        </Button>
       </div>
 
-      <div className="grid gap-2 text-center">
-        <h3>Page not Found</h3>
-        <p>It&apos;s Okay!</p>
+      <div className="grid gap-6 text-center">
+        <div className="grid gap-2">
+          <h3>Page not Found</h3>
+          <p>It&apos;s Okay!</p>
+        </div>
 
         <div>
-          <Link href="/" className="btn-primary btn">
-            Let&apos;s Go Back
-          </Link>
+          <Button asChild>
+            <Link href="/">Let&apos;s Go Back</Link>
+          </Button>
         </div>
       </div>
     </>
