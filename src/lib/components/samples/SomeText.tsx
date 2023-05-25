@@ -5,7 +5,7 @@ const SomeText = () => {
         nextarter-tailwind
       </h1>
       <p className="text-xs md:text-sm text-gray-500">
-        Next.js starter template with TailwindCSS, daisyUI and TypeScript setup
+        Next.js starter template with TailwindCSS and TypeScript setup
       </p>
     </div>
   );

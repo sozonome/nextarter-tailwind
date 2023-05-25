@@ -10,7 +10,7 @@ const APP_NAME = 'nextarter-tailwind';
 
 export const metadata: Metadata = {
   title: APP_NAME,
-  description: 'Next.js App with TypeScript setup',
+  description: 'Next.js + TailwindCSS v3 + TypeScript template',
   viewport: {
     width: 'device-width',
     initialScale: 1,
@@ -25,6 +25,19 @@ export const metadata: Metadata = {
     telephone: false,
   },
   themeColor: '#FFFFFF',
+  openGraph: {
+    url: 'https://nextarter-tailwind.sznm.dev',
+    title: 'nextarter-tailwind',
+    description: 'Next.js + TailwindCSS v3 + TypeScript template',
+    images: {
+      url: 'https://og-image.sznm.dev/**nextarter-tailwind**.sznm.dev.png?theme=dark&md=1&fontSize=125px&images=https%3A%2F%2Fsznm.dev%2Favataaars.svg&widths=250',
+      alt: 'nextarter-tailwind.sznm.dev og-image',
+    },
+  },
+  twitter: {
+    creator: '@sozonome',
+    card: 'summary_large_image',
+  },
 };
 
 interface RootLayoutProps {
