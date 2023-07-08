@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 
-import CTASection from 'lib/components/samples/CTASection';
-import SomeText from 'lib/components/samples/SomeText';
+import CTASection from '@/lib/components/samples/CTASection';
+import SomeText from '@/lib/components/samples/SomeText';
 
 const Home: NextPage = () => {
   return (
