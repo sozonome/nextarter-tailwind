@@ -15,6 +15,7 @@ Start developing right away!
   - recommended to extend with one of these:
     - [shadcn/ui](https://ui.shadcn.com/)
     - [tremor](https://www.tremor.so/)
+    - [flowbite-react](https://www.flowbite-react.com/)
     - [daisyUI](https://daisyui.com/)
     - [Headless UI](https://headlessui.com/)
     - [NextUI v2](https://github.com/nextui-org/nextui/discussions/1035)
