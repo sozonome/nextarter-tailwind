@@ -11,8 +11,8 @@ dependencies:
     specifier: ^2.0.0
     version: 2.0.0
   lucide-react:
-    specifier: ^0.259.0
-    version: 0.259.0(react@18.2.0)
+    specifier: ^0.260.0
+    version: 0.260.0(react@18.2.0)
   next:
     specifier: ^13.4.10
     version: 13.4.10(@babel/core@7.22.9)(react-dom@18.2.0)(react@18.2.0)
@@ -35,8 +35,8 @@ dependencies:
     specifier: ^4.10.1
     version: 4.10.1(react@18.2.0)
   tailwind-merge:
-    specifier: ^1.13.2
-    version: 1.13.2
+    specifier: ^1.14.0
+    version: 1.14.0
   tailwindcss-animate:
     specifier: ^1.0.6
     version: 1.0.6(tailwindcss@3.3.3)
@@ -73,8 +73,8 @@ devDependencies:
     specifier: ^13.4.10
     version: 13.4.10(eslint@8.45.0)(typescript@5.1.6)
   eslint-config-sznm:
-    specifier: ^2.0.1
-    version: 2.0.1(eslint@8.45.0)(prettier@3.0.0)(typescript@5.1.6)
+    specifier: ^2.0.2
+    version: 2.0.2(eslint@8.45.0)(prettier@3.0.0)(typescript@5.1.6)
   husky:
     specifier: ^8.0.3
     version: 8.0.3
@@ -3771,8 +3771,8 @@ packages:
       eslint: 8.45.0
     dev: true
 
-  /eslint-config-sznm@2.0.1(eslint@8.45.0)(prettier@3.0.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-G9qvoW2tHGg/LVgp7JzQRj7YkJk6V/MwU+Cxvhu2Wbb4X56SVBkUkrMk+ENiW9ros336mYIT5y7HWxB9l7KIow==}
+  /eslint-config-sznm@2.0.2(eslint@8.45.0)(prettier@3.0.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-B28dQFWNk3MLpXe3jGXU5eNYyD0OHnwC5bs79iF1pGIRpEF2zUgvVRrDoJDAIQSmHicIzIhOOpoNCLzWU/711Q==}
     peerDependencies:
       eslint: ^7.32.0 || ^8.2.0
       prettier: 3.x
@@ -5395,8 +5395,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-react@0.259.0(react@18.2.0):
-    resolution: {integrity: sha512-dFBLc6jRDfcpD9NQ7NyFVa+YR3RHX6+bs+f/UiotvNPho+kd4WyeXWMCCchUf7i/pq3BAaHkbmtkbx/GxxHVUw==}
+  /lucide-react@0.260.0(react@18.2.0):
+    resolution: {integrity: sha512-xN6wuhUlcXeS4GsxZpd2DZp+m1jEZPckuCr90nQAXKRNl63GZ4KshIcGmqJEUqEygmv8Rf99MhcwF3DqBqQ9Dg==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
@@ -6931,8 +6931,8 @@ packages:
       tslib: 2.6.0
     dev: true
 
-  /tailwind-merge@1.13.2:
-    resolution: {integrity: sha512-R2/nULkdg1VR/EL4RXg4dEohdoxNUJGLMnWIQnPKL+O9Twu7Cn3Rxi4dlXkDzZrEGtR+G+psSXFouWlpTyLhCQ==}
+  /tailwind-merge@1.14.0:
+    resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
     dev: false
 
   /tailwindcss-animate@1.0.6(tailwindcss@3.3.3):
@@ -7036,7 +7036,7 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
-      terser: 5.19.0
+      terser: 5.19.1
       webpack: 5.88.1
     dev: false
 
@@ -7051,8 +7051,8 @@ packages:
       source-map-support: 0.5.21
     dev: false
 
-  /terser@5.19.0:
-    resolution: {integrity: sha512-JpcpGOQLOXm2jsomozdMDpd5f8ZHh1rR48OFgWUH3QsyZcfPgv2qDCYbcDEAYNd4OZRj2bWYKpwdll/udZCk/Q==}
+  /terser@5.19.1:
+    resolution: {integrity: sha512-27hxBUVdV6GoNg1pKQ7Z5cbR6V9txPVyBA+FQw3BaZ1Wuzvztce5p156DaP0NVZNrMZZ+6iG9Syf7WgMNKDg2Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
