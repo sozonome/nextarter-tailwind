@@ -49,7 +49,7 @@ const CTASection = () => {
         </Button>
         <Button asChild variant="link">
           <a
-            className=" p-2 rounded-3xl text-xs font-semibold"
+            className="rounded-3xl p-2 text-xs font-semibold"
             href={`https://github.com/${repoName}`}
             target="_blank"
             rel="noopener noreferrer"
