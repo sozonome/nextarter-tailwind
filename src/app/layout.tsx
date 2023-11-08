@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 
 import Layout from '@/lib/components/layout';
 import { fontSans } from '@/lib/styles/fonts';
@@ -11,10 +11,6 @@ const APP_NAME = 'nextarter-tailwind';
 export const metadata: Metadata = {
   title: APP_NAME,
   description: 'Next.js + TailwindCSS v3 + TypeScript template',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-  },
   applicationName: APP_NAME,
   appleWebApp: {
     capable: true,
@@ -24,7 +20,6 @@ export const metadata: Metadata = {
   formatDetection: {
     telephone: false,
   },
-  themeColor: '#FFFFFF',
   openGraph: {
     url: 'https://nextarter-tailwind.sznm.dev',
     title: 'nextarter-tailwind',
@@ -38,6 +33,12 @@ export const metadata: Metadata = {
     creator: '@sozonome',
     card: 'summary_large_image',
   },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#FFFFFF',
 };
 
 interface RootLayoutProps {
