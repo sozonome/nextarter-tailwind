@@ -19,14 +19,14 @@ Start developing right away!
     - [daisyUI](https://daisyui.com/)
     - [Headless UI](https://headlessui.com/)
     - [NextUI v2](https://github.com/nextui-org/nextui/discussions/1035)
-- ✔️ **toolings** for linting, formatting, and conventions configured 
+- ✔️ **toolings** for linting, formatting, and conventions configured
   - `eslint`, `prettier`, `husky`, `lint-staged`, `commitlint`, `commitizen`, and `standard-version`
   - `pre-commit`, `pre-push`, `commit-msg`, `prepare-commit-msg` hook configured
-- 📱 **PWA-ready** - `next-pwa` configured, disabled by default, just enable it through `next.config.js`
-- 🔎 SEO optimization configured - with `next-seo` and `next-sitemap`. 
+- 📱 **PWA-ready** - `next-pwa` configured, enabled by default, just disable it through `next.config.js`
+- 🔎 SEO optimization configured - with `next-seo` and `next-sitemap`.
   - you'll need to reconfigure or tinker with it to get it right according to your needs, but it's there if you need it.
 - 🎨 basic responsive layout configured - don't need it? just remove it 😃
-- 🤖 **Automatic Dependency Update** with [Renovate](https://renovatebot.com/) 
+- 🤖 **Automatic Dependency Update** with [Renovate](https://renovatebot.com/)
 - 🏎️ **Turbo** setup
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-tailwind&metric=alert_status)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-tailwind) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-tailwind&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-tailwind) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-tailwind&metric=bugs)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-tailwind) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-tailwind&metric=code_smells)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-tailwind) [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=sozonome_nextarter-tailwind&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=sozonome_nextarter-tailwind)
@@ -40,6 +40,7 @@ npx degit sozonome/nextarter-tailwind <APP_NAME>
 ```
 
 Install packages:
+
 ```bash
 pnpm i
 ```
