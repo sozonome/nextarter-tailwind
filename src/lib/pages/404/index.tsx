@@ -1,8 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { Button } from '@/lib/components/ui/button';
-
 const Page404 = () => {
   return (
     <>
@@ -13,11 +11,9 @@ const Page404 = () => {
           height={320}
           alt="404 Illustration"
         />
-        <Button variant="link" asChild>
-          <a href="https://storyset.com/web" className="text-xs">
-            Web illustrations by Storyset
-          </a>
-        </Button>
+        <a href="https://storyset.com/web" className="text-xs">
+          Web illustrations by Storyset
+        </a>
       </div>
 
       <div className="grid gap-6 text-center">
@@ -27,9 +23,7 @@ const Page404 = () => {
         </div>
 
         <div>
-          <Button asChild>
-            <Link href="/">Let&apos;s Go Back</Link>
-          </Button>
+          <Link href="/">Let&apos;s Go Back</Link>
         </div>
       </div>
     </>
