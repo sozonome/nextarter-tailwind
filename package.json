@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "clsx": "^2.0.0",
-    "lucide-react": "^0.302.0",
+    "lucide-react": "^0.306.0",
     "next": "^14.0.4",
     "next-pwa": "^5.6.0",
     "next-seo": "^6.4.0",
