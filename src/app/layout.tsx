@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 
-import Layout from '@/lib/components/layout';
+import Layout from '@/lib/layout';
 import { fontSans } from '@/lib/styles/fonts';
 import { cn } from '@/lib/styles/utils';
 

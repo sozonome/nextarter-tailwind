@@ -11,13 +11,14 @@ Start developing right away!
 
 - 🚀 **Next.js 13 (App Router)** - **React 18**
 - ⛓️ **TypeScript**
-- **TailwindCSS** v3 - with base shadcn/ui setup
+- **TailwindCSS** v3
   - recommended to extend with one of these:
     - [shadcn/ui](https://ui.shadcn.com/)
     - [tremor](https://www.tremor.so/)
     - [flowbite-react](https://www.flowbite-react.com/)
     - [daisyUI](https://daisyui.com/)
     - [Headless UI](https://headlessui.com/)
+    - [Mantine](https://mantine.dev)
     - [NextUI v2](https://github.com/nextui-org/nextui/discussions/1035)
 - ✔️ **toolings** for linting, formatting, and conventions configured
   - `eslint`, `prettier`, `husky`, `lint-staged`, `commitlint`, `commitizen`, and `standard-version`
@@ -60,5 +61,4 @@ You can start editing the page by modifying `src/pages/index.tsx`. The page auto
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 - [TailwindCSS](https://tailwindcss.com)
-- [headless UI](https://headlessui.dev/)
 - [TypeScript](https://www.typescriptlang.org)
