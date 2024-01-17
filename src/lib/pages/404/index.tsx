@@ -23,7 +23,7 @@ const Page404 = () => {
         </div>
 
         <div>
-          <Link href="/" className="underline">Let&apos;s Go Back</Link>
+          <Link href="/" className="hover:underline">Let&apos;s Go Back</Link>
         </div>
       </div>
     </>
