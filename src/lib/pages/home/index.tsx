@@ -1,9 +1,7 @@
-import type { NextPage } from 'next';
+import { CTASection } from './components/cta-section';
+import { SomeText } from './components/some-text';
 
-import CTASection from '@/lib/components/samples/CTASection';
-import SomeText from '@/lib/components/samples/SomeText';
-
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div className="flex min-h-[60vh] flex-col items-center justify-center gap-8 text-center">
       <SomeText />

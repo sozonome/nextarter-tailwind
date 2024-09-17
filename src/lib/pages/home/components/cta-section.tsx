@@ -2,7 +2,7 @@
 
 const repoName = 'sozonome/nextarter-tailwind';
 
-const CTASection = () => {
+export const CTASection = () => {
   return (
     <div className="grid justify-items-center gap-2.5">
       <div className="flex items-center gap-2">
@@ -54,5 +54,3 @@ const CTASection = () => {
     </div>
   );
 };
-
-export default CTASection;

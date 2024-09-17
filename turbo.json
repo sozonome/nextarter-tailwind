@@ -9,7 +9,7 @@
       "outputs": [],
       "inputs": [".eslintrc.*", "src/**"]
     },
-    "type-check": {
+    "type:check": {
       "outputs": ["*.tsbuildinfo"]
     }
   }

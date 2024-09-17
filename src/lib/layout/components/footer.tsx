@@ -1,4 +1,4 @@
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="wrapper">
       <div className="flex">
@@ -12,5 +12,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;
