@@ -4,8 +4,12 @@ export const Footer = () => {
       <div className="flex">
         <p className="text-xs">
           {new Date().getFullYear()} -{' '}
-          <a href="https://sznm.dev" target="_blank" rel="noopener noreferrer">
-            sznm.dev
+          <a
+            href="https://agustinusnathaniel.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            agustinusnathaniel.com
           </a>
         </p>
       </div>

@@ -8,4 +8,4 @@ on:
 
 jobs:
   update-license:
-    uses: sozonome/workflows/.github/workflows/update-license.yml@main
+    uses: agustinusnathaniel/workflows/.github/workflows/update-license.yml@main

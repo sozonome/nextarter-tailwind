@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
-const repoName = 'sozonome/nextarter-tailwind';
+const repoName = 'agustinusnathaniel/nextarter-tailwind';
 
 export const CTASection = () => {
   return (

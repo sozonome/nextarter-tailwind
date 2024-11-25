@@ -2,7 +2,7 @@
   "name": "nextarter-tailwind",
   "version": "0.1.0",
   "private": true,
-  "author": "sozonome",
+  "author": "agustinusnathaniel",
   "engines": {
     "node": ">=20.14.x",
     "pnpm": ">=9"
